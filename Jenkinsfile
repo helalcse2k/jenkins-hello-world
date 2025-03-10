@@ -35,9 +35,9 @@ pipeline {
                    echo "${i+1}"
                    sleep 1
                }
-                    sh "mvn test"
+                   
             }
-            
+             sh "mvn test"
             
         }
         
